@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
 </head>
 <body>
-    test
+    <form>
+        <fieldset>
+            <div class="formSelect">
+                <select id="countrySelect" name="countrySelect">
+                <option value disabled selected>Please Select Your Country</option>
+                </select>
+            </div>
+            <div class="formSelect">
+                <select>
+                    <option value disabled selected>Please Select Your Province</option>
+                </select>
+            </div>
+        </fieldset>
+    </form>
+    <div class="resultDiv">
+        <p>Your total after tax will be:</p>
+    </div>
     <script src="./scripts.js"></script>
 </body>
 </html>
